@@ -153,6 +153,5 @@ This repository contains Kubernetes manifests and configuration for deploying a 
   kubectl get ingress -n django-app
   ```
 
-## License
-This project is licensed under the MIT License.
+
 
