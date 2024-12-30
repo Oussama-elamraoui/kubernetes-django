@@ -8,7 +8,7 @@ This repository contains Kubernetes manifests and configuration for deploying a 
   Defines environment variables for the Django application.
   - Example:
     - `DJANGO_SETTINGS_MODULE`: Specifies the settings module for Django.
-    - `ALLOWED_HOSTS`: List of allowed hosts.
+    - `ALLOWED_HOSTS`: List of allowed hosts or [*].
 
 - `deployment-django.yaml`:
   Defines the deployment for the Django application, including replicas, container image, ports, and environment variables.
